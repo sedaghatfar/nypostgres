@@ -11,7 +11,7 @@ Recommended before we start
 
 * [Installing PostgreSQL on Windows and Mac OS X](https://www.datacamp.com/community/tutorials/installing-postgresql-windows-macosx)
 
-* [AWS Redshift](https://console.aws.amazon.com/redshift/home?region=us-east-1)
+* [Heroku](https://www.heroku.com/)
 
 * [Mode SQL editor](https://mode.com/)
 
