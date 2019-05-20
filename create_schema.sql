@@ -20,3 +20,8 @@ CREATE TABLE public.Jobs (
   	State_abb varchar(10),
     Costs Numeric
 );
+
+
+\copy public.accounts from '~/documents/LearnSQL/accounts.csv' DELIMITER ',' CSV HEADER;
+\copy public.Organizations from '~/documents/LearnSQL/organizations.csv' DELIMITER ',' CSV HEADER;
+\copy public.Jobs from '~/documents/LearnSQL/jobs.csv' DELIMITER ',' CSV HEADER;
