@@ -21,7 +21,13 @@ CREATE TABLE public.Jobs (
     Costs Numeric
 );
 
+CREATE TABLE public.practice (
+    tier varchar(50),
+    Name varchar(50)
+);
+
 
 \copy public.accounts from '~/documents/LearnSQL/accounts.csv' DELIMITER ',' CSV HEADER;
 \copy public.Organizations from '~/documents/LearnSQL/organizations.csv' DELIMITER ',' CSV HEADER;
 \copy public.Jobs from '~/documents/LearnSQL/jobs.csv' DELIMITER ',' CSV HEADER;
+\copy public.practice from '~/documents/LearnSQL/practice.csv' DELIMITER ',' CSV HEADER;
