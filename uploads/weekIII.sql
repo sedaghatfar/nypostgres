@@ -14,7 +14,7 @@ VALUES
 
 
 INSERT INTO jobs
-    (id , created_at , completed_at , organization_id , trade , status , state_province)
+    (id , created_at , completed_at , organization_id , trade , status , state_abb)
 VALUES
 ('13497582','2018-01-01 02:51:43.997','2018-03-06 18:28:24.027','1527','PLB','complete','TX'),
 ('13501144','2018-01-01 04:05:07.04','2018-01-04 21:46:38.721','1527','PLB','complete','TX');
